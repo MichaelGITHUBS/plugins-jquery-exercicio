@@ -1,3 +1,9 @@
+$(document).ready(function() {
+    $('#carousel-imagens').slick({
+        autoplay: true, 
+    });
+
+
 $('#telefone').mascara('(00) 00000-0000', {
     placeholder: '(DDD) 12345-6789'
 })
